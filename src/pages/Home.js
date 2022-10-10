@@ -2,6 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import  Logoo  from '../assets/Logo.jpg';
 import '../Styles/Home.css';
+
+//Added more spaces
 function Home() {
   return (
     <div className='home' style= {{ backgroundImage: `url(${Logoo})` }}>
