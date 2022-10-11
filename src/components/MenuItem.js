@@ -1,5 +1,5 @@
 import React from 'react';
-import Rating from './Rating';
+import Rating from '../helpers/Rating';
 
 function MenuItem({image,name,price,rating,numReviews}) {
   return (
